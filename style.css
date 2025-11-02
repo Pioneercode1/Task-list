@@ -4,6 +4,8 @@
     --light-gy: #616165e2;
     --white: #fff;
     --light-red: #cf3c3c;
+    --green: #226b22;
+    --blue: #4035bd;
 
 }
 
@@ -66,17 +68,22 @@ body {
 .style-buttons {
     border-radius: 50%;
     border: none;
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
     line-height: 0;
+    color: var(--white);
 }
 
 .content-header h1 {
     font-size: clamp(18px, 1.1rem + 2vw, 2rem);
 }
+#button-add {
+    background-color: var(--light-gy);
+}
 
 .content-tasks {
     width: 100%;
+    margin-block-end: 0.5rem;
 }
 
 .one-task {
@@ -91,6 +98,15 @@ body {
 
 .one-task h2 {
     font-size: clamp(16px, 0.9rem + 1.5vw, 1.7rem);
+}
+.button-done {
+    background-color: var(--green);
+}
+.button-edit {
+    background-color: var(--blue);
+}
+.button-delete {
+    background-color: var(--light-red);
 }
 
 @media (min-width: 1024px) {
