@@ -109,6 +109,10 @@ body {
     background-color: var(--light-red);
 }
 
+.done {
+    background-color: var(--green);
+}
+
 @media (min-width: 1024px) {
     .content-main {
         width: clamp(500px, 60%, 48rem);
